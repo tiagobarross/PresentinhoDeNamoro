@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
-  body {
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,22 +9,21 @@
     background-color: #ff758f;
     color: white;
     font-family: 'Pacifico', cursive;
+
   }
 
-  body > p {
+  body > p{
     z-index: 5;
   }
-
   .valentines-day-card {
     position: relative;
-    width: 80%; /* Ajustado para ocupar 80% da largura da tela */
-    max-width: 400px; /* Limita a largura máxima a 400px */
-    height: 60vw; /* Altura relativa à largura da tela */
+    width: 400px;
+    height: 300px;
     background-color: #ff8fa3;
     overflow: hidden;
-    border: 5px solid white;
-    border-radius: 10px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, .4);
+    border:10px solid white;
+    border-radius:10px;
+    box-shadow: 0 0 100px rgba(0,0,0,.4);
   }
   .valentines-day-card:before {
     content:"";
@@ -158,14 +157,14 @@
   .text {
     position: absolute;
     color: #800f2f;
-    font-size: 5vw; /* Tamanho de fonte relativo à largura da tela */
-    line-height: 1;
+    font-size:30px;
+    font-family: 'Pacifico', cursive;
+    line-height:1;
     text-align: center;
-    width: 90%; /* Ajustado para ocupar 90% da largura da tela */
-    max-width: 380px; /* Limita a largura máxima a 380px */
-    left: 5%; /* Centraliza horizontalmente */
-    z-index: 3;
-    top: 40vw; /* Posição relativa à largura da tela */
+    width:380px;
+    left:10px;
+    z-index:3;
+    top:320px;
     animation: up 1s ease forwards;
     transition: .2s;
   }
@@ -184,15 +183,26 @@
     font-size:25px;
   }
 
-  #video,
-  #traducao {
-    width: 80%; /* Ajustado para ocupar 80% da largura da tela */
-    max-width: 400px; /* Limita a largura máxima a 400px */
+  #video{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #000;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    border:10px solid white;
+    border-radius:10px;
+    box-shadow: 0 0 100px rgba(0,0,0,.4);
+  }
+
+  #traducao{
+    width: 400px;
+    height: auto;
+    padding: 0px 10px 0px 10px;
     text-align: center;
     color: white;
     font-family: 'Pacifico', cursive;
-    border: 5px solid white;
-    border-radius: 10px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, .4);
-    margin: 20px 0; /* Adicionado espaço na parte superior e inferior */
+    border:10px solid white;
+    border-radius:10px;
+    box-shadow: 0 0 100px rgba(0,0,0,.4);
   }
