@@ -4,7 +4,6 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 20px 20px 20px 20px;
     align-items: center;
     justify-content: center;
     background-color: #ff758f;
